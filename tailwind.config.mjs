@@ -1,3 +1,5 @@
+import { fontFamily } from "tailwindcss/defaultTheme";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,8 +10,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightHover: "#fcf4ff",
+        darkHover: "#2a004a",
+        darkTheme: "#11001f",
+      },
+      fontFamily: {
+        outfit: ["var(--font-outfit)", ...fontFamily.sans],
+        ovo: ["var(--font-ovo)", ...fontFamily.serif],
+      },
+      boxShadow: {
+        dark: "4px 4px 0 #fff",
+        light: "4px 4px 0 #000",
       },
     },
   },
