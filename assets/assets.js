@@ -230,7 +230,7 @@ export const projectData = [
     link: "https://beta.workspace.buildmyn.com/admin/dashboard",
   },
   {
-    title: "MwdiBooking",
+    title: "MediBooking",
     description:
       "A healthcare booking platform built with the MERN stack and Tailwind CSS. It allows users and doctors to log in, manage appointments, and process secure online payments. Users can browse doctors, check availability, and book consultations, receiving email links for virtual meetings. The system supports real-time appointment management, medical record tracking, and secure authentication, offering a seamless experience for medical consultations.",
     image: assets.Work3,
