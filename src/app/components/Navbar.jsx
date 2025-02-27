@@ -93,16 +93,8 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-2 sm:gap-4">
-          <button aria-label="Toggle dark mode">
-            <Image
-              src={assets.moon_icon}
-              alt="Dark mode toggle"
-              width={24}
-              className="w-5 sm:w-6"
-            />
-          </button>
           <a
-            className="hidden font-ovo md:flex items-center gap-2 px-4 lg:px-10 py-2 border border-gray-500 rounded-full hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors"
+            className="hidden font-ovo md:flex items-center gap-2 px-4 lg:px-10 py-2 border border-gray-500 rounded-full hover:text-white hover:border-red-500 transition-colors"
             href="#contact"
           >
             Contact
