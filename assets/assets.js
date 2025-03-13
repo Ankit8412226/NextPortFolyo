@@ -42,6 +42,7 @@ import Work2 from "./WorkBuildmyn1.png";
 import Work3 from "./WorkPricsripto.png";
 import Work4 from "./WorkTechnerd.jpg";
 import Work5 from "./WorkTasky.png";
+import Work6 from "./work6.png";
 export const assets = {
   user_image,
   code_icon,
@@ -87,6 +88,7 @@ export const assets = {
   Work3,
   Work4,
   Work5,
+  Work6,
 };
 
 export const workData = [
@@ -249,5 +251,12 @@ export const projectData = [
       "A task management system built with the MERN stack, offering seamless workflow organization. Users can log in, create, update, and delete tasks with drag-and-drop functionality for status updates (Pending, In Progress, Completed). Features include deadline tracking, PDF report generation, and intuitive task categorization. Designed for efficiency, this platform enhances productivity with a clean UI and optimized performance.",
     image: assets.Work5,
     link: "https://tasky-eight-teal.vercel.app/login",
+  },
+  {
+    title: "Brain-Wave",
+    description:
+      "Brain-Wave is a visually stunning UI project designed with a modern, sleek, and animated interface that delivers an exceptional user experience. Built with cutting-edge frontend technologies, it features smooth transitions, interactive elements, and a refined aesthetic that captivates users. The UI is highly intuitive, responsive, and crafted to leave a lasting impression—providing a 'wow' factor that makes it stand out. Whether for inspiration or implementation, Brain-Wave showcases the power of exceptional design and fluid animations.",
+    image: assets.Work6,
+    link: "https://brain-wave-gilt-eight.vercel.app/",
   },
 ];
