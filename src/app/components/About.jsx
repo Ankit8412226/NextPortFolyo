@@ -1,7 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import { assets, infoList, toolsData } from "../../../assets/assets";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import { assets, infoList, toolsData } from "../../../assets/assets";
 
 const About = () => {
   // Container animation variants
@@ -124,16 +123,16 @@ const About = () => {
           </motion.div>
 
           <div className="flex-1 w-full">
-            <motion.p
-              className="mb-10 md:mb-14 text-lg font-ovo text-center lg:text-left max-w-3xl mx-auto lg:mx-0"
-              variants={textVariants}
-            >
-              I am a full-stack developer, passionate about creating innovative
-              and user-friendly applications. I have worked on various projects,
-              from small-scale projects to large-scale enterprise applications.
-              I am always eager to learn and improve my skills, and I am excited
-              to share my knowledge with others.
-            </motion.p>
+          <motion.p
+  className="mb-10 md:mb-14 text-lg font-ovo text-center lg:text-left max-w-3xl mx-auto lg:mx-0"
+  variants={textVariants}
+>
+  I am a full-stack developer passionate about building innovative and
+  user-friendly applications. My experience ranges from small-scale projects
+  to large-scale enterprise solutions. I’m always eager to learn, improve my
+  skills, and share knowledge with others.
+</motion.p>
+
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {infoList.map(({ icon, title, description }, index) => (

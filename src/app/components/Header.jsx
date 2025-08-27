@@ -1,7 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import { assets } from "../../../assets/assets";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import { assets } from "../../../assets/assets";
 
 const Header = () => {
   // Container animation variants
@@ -110,17 +109,17 @@ const Header = () => {
           >
             Full Stack Web Developer
           </motion.span>{" "}
-          Based In Chandigarh
+          Turning Ideas into Impact
+
         </motion.h1>
 
         <motion.p
-          className="max-w-2xl mx-auto font-ovo text-sm sm:text-base md:text-lg text-gray-700 mb-6"
-          variants={itemVariants}
-        >
-          I am a Full Stack Developer from Bihar, India, with experience as an
-          intern at Farmershop and Buildmyn, along with three completed
-          freelancing projects.
-        </motion.p>
+  className="max-w-2xl mx-auto font-ovo text-sm sm:text-base md:text-lg text-gray-700 mb-6"
+  variants={itemVariants}
+>
+  I am a Full Stack Developer currently working at Suh Tech Private Limited, with internship experience at Farmershop, Buildmyn, and Seorce, along with five completed freelancing projects.
+</motion.p>
+
 
         <motion.div
           className="flex flex-col sm:flex-row items-center gap-4 mt-2 w-full sm:w-auto"
@@ -151,7 +150,7 @@ const Header = () => {
             </motion.div>
           </motion.a>
           <motion.a
-            href="/sample-resume.pdf"
+            href="/AnkitCv1.pdf"
             download
             className="px-6 sm:px-8 md:px-10 py-2.5 sm:py-3 border rounded-full border-gray-500 flex items-center justify-center gap-2 w-full sm:w-auto hover:bg-gray-100 transition-colors"
             variants={buttonVariants}
